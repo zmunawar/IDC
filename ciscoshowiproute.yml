@@ -1,4 +1,6 @@
 ---
-- ios_command:
-    command:
-    - show ip interface brief
+- name: "show version on IOS device"
+  hosts: all
+  tasks:
+  - ios_command:
+      commands: show version
