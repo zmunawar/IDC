@@ -1,6 +1,4 @@
 ---
-- hosts: ios
-  task:
-  - ios_command:
+- ios_command:
     command:
     - show ip interface brief
